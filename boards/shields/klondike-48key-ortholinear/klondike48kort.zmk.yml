@@ -1,0 +1,8 @@
+file_format: "1"
+id: klondike48kort
+name: klondike48kort
+type: shield
+url: https://github.com/4Klondike/klondike-48key-ortholinear
+requires: [pro_micro]
+features:
+  - keys

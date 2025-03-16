@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: remote-name
-      url-base: https://github.com/remote-name
+    - name: klondike-48key-ortholinear
+      url-base: https://github.com/4Klondike/klondike-48key-ortholinear
   projects:
     # Together with the above defined remote, this refers to a module located at
     # https://github.com/remote-name/repository-name
-    - name: repository-name
-      remote: remote-name
+    - name: klondike-48key-ortholinear
+      remote: klondike-48key-ortholinear
       # This points to a west manifest file in the remote module for further imports
       import: west.yml
